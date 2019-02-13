@@ -9,20 +9,13 @@ body {
   padding: 0;
   margin: 0; }
 
-.left-nav {
-  grid-column: 1/1; }
-
-.right-nav {
-  grid-column: 3/4; }
-
 .container {
   display: grid;
   height: 100vH;
   grid-template-columns: 10% 80% 10%;
   grid-template-rows: 10vH auto 13vH; }
-  .container header {
-    grid-column-start: 1;
-    grid-column-end: 4;
+
+  .container header { 
     display: flex;
     color: #212121; }
     .container header nav {
